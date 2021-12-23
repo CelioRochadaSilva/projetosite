@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+      <title>
+        Resistor
+      </title>
+      <style>
+
+       .bg-background  { 
+       background: linear-gradient( to right, green, transparent, black, blue );  
+}
+      </style><!-- gradiente menu estilo -->
+  </head>
+  <body>
+    <header>  <!-- navbar -->
+              
+       
+            <nav class="navbar navbar-light bg-background">
+                <div> 
+                  <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?Arduino Uno R3" alt="Logo da aula">
+
+            <a class="navbar-brand text-white">Tipos resistores</a> 
+
+                </div>
+              <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="arduino_uno_r3.html">CURSOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contatoForm.html">CONTATOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">QUEM SOMOS</a>
+               </li>
+                
+              </ul>
+              
+                </div>
+
+            </nav>
+
+             
+     </header>
+    <section>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1400x500/?Arduino Uno3" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1400x500/?Arduino" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1400x500/?Arduino UnoR3" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+               
+      </div>
+     </section>
+    <section>
+      <div class= "container mb-5">
+        <div class="row">
+          <div class="col-sm-12 text-dark text-center my-3">
+            <h1>Tipos e discas sobre resistores</h1>
+          </div>
+        </div>
+        
+      
+              <h3 class="card-title text-danger">Resitores</h3>
+              <p class="card-text">Informações sobre tipos diversosr de resistor.</p>
+              <p>Os resistores oferecem uma oposição à passagem de corrente elétrica. Esta oposição é chamada de resistência elétrica ou impedância, e possui a unidade de medida ohm, representado pela letra grega Ω(ômega maiúsculo). Estes componentes causam uma queda de tensão na região do circuito em questão, e nunca uma queda de corrente, apesar de limitá-la. Ou seja, a corrente elétrica que entra em um terminal do resistor é a mesmo corrente que sai pelo outro terminal, porém existe uma queda de tensão.
+              É importante frisar que todo material condutor possui certa resistência, mesmo que isso não seja ideal, pois não existe condutor perfeito.</p>
+              <h3 class="card-title text-danger">Formas de identificar valor resistor</h3>
+              <img src="./img/comp/resistor/8pass.jpg" height="450" width="382">
+              <h5 class="card-title text-danger">Potenciometro</h5>
+              <p> Potenciômetros (ou reostatos) são resistores que possui a sua resistência elétrica ajustável. Geralmente possui três conectores, dois laterais e um central. A resistência varia entre os pinos laterais e o central. </p>
+
+              <img src="./img/comp/resistor/9pass.jpg" height="150" width="120" ><br>
+
+<h5>Tabela de dimencionamento diodo led</h5>
+
+              <img src="./img/comp/diodo/diodo_led_tab.jpg" height="350" width="350" >
+              <br>
+
+              <h5>Tipos de resistor</h5>
+              <p>Existem vários tipos de resistores, podendo ser fixos ou variáveis. Eles podem ser classificados de acordo com o tipo de material e também pelo tipo construtivo, sendo os mais comuns:</p>
+              <li>Resistores de carvão</li>
+              <li>Resistores de fio</li>
+              <li>Resistores de filme de carbono</li>
+              <li>Resistores filme metálico</li>
+              <br>
+              <h5>Calculo para determinar resistor adequado</h5>
+              <p>A fórmula necessária para calcular o resistor adequado para o LED é: R = (Vcc – VL) / IL, onde:</p>
+
+              <li>R: resistência do resistor adequado para o LED </li>
+              <li>Vcc: Tensão da fonte de alimentação </li>
+              <li>VL:  tensão do LED</li>
+              <li>corrente do LED </li>
+              
+              <h5>Exemplo</h5>
+              <p>Dimensionar um resistor para construir um circuito que acenda um LED de 5mm da cor verde, com uma bateria de 9V. A resolução é simples! Basta identificar na tabela qual a tensão e corrente máxima para o LED da cor verde, em seguida substitua os valores encontrados na fórmula assim como mostra abaixo. Lembre-se que 20mA é a mesma coisa que 0,02A.</p>
+              <li>R = (9 -2,5) / 0,02 </li>
+              <li>R = 6,5 / 0,02 </li>
+              <li>R = 325 ohms </li>
+
+               <p>Neste caso não existe resistor de 325 ohms, então iremos utilizar o que está com o valor mais próximo, mas que esteja acima do valor calculado. Sendo assim, vamos usar o de 330 ohms.</p> 
+               <img src="./img/comp/diodo/diodo_led_cap_Lig.jpg" height="350" width="350" >
+               <br>
+                
+                <h5>Exemplo 2: Resistor ligação em serie</h5>
+                <p>Acender um LED vermelho, em uma fonte de alimentação no valor de 4,5v, usando três pilhas de 1,5V cada. Aplicando os valores na fórmula fica assim:</p> 
+                <li> R = (4,5 – 2) / 0,02 </li>
+                 <li> R = 2,5 / 0,02 </li>
+                  <li>R = 200 ohms   </li>
+
+                <p>Agora basta conferir na tabela de resistores com valores comerciais qual é o mais próximo do resistor calculado, neste caso ambos serão do mesmo valor.</p>
+                <p>Neste exemplo, como a corrente no circuito em série é a mesma, iremos usar apenas uma vez o 20mA, mas somamos as tensões dos LED`s, totalizando 7V. Aplicando os valores na fórmula:</p>
+                <li> R = (9 – 7) / 0,02</li>
+                <li>R = 2 / 0,02 </li>
+                <li>R = 100 ohms</li>
+
+                <p>Logo para esse três LED`s em série, um resistor de 100 ohms seria o mais adequado.</p>
+                <h5>Esquema de ligação</h5>
+                <img src="./img/comp/diodo/diodo_led_cap_Lig_ser.jpg" height="350" width="350" >
+                <br>
+
+                <h5>Exemplo em paralelo</h5>
+                <p> Ao fazer a ligação de LED`s em paralelo é recomendado que você use um resistor para cada um. Não é recomendo utilizar um resistor para todos os LED`s, pois corre o risco de haver danos aos componentes.
+
+                No caso temos dois LED`s vermelhos e um verde sendo alimentados por uma fonte de 9V. Sendo assim, o correto é calcular individualmente um resistor para cada um dos LED`s. Como são dois LED`s vermelhos apenas um cálculo é necessário para os dois.</p>
+                <h4>Para led vermelho</h4>
+                <li>R = (9 – 2) / 0,02 </li>
+                <li>R = 7 / 0,02 </li>
+                <li>R = 350 ohms </li>
+                <P>Neste caso não existe resistor de 350 ohms, então iremos utilizar o que está com o valor mais próximo, mas que esteja acima do valor calculado. Portanto, iremos usar o de 360 ohms.</P>
+
+                <h4>Para Led verde</h4>
+                <li>R = (9 – 2,5) / 0,02 </li>
+                <li>R = 6,5 / 0,02 </li>
+                <li>R = 325 ohms </li>
+                
+                <img src="./img/comp/diodo/diodo_led_cap_Lig_par.jpg" height="350" width="350" >
+                <br>
+
+                <h4> Calculando o resistor para led`s ligados em série e em paralelo.</h4>
+                <p>Temos três LED`s vermelhos ligados em série, um LED azul ligado em paralelo ao demais LED`s e a fonte de alimentação, que no caso é uma bateria de 9v.
+
+                Assim como nos exemplos anteriores, basta somar as tensões dos LED`s e dimensionar um resistor para eles, e dimensionar o resistor para o LED azul.</p>
+                <h4> Para os LED`s vermelhos ligados em série:</h4>
+                <li> R = (9 – 6) / 0,02 </li>
+                <li> R = 3 / 0,02       </li>
+                <li> R = 150 ohms </li>
+
+                <p> Dessa forma , para esses três LED`s em série basta um resistor de 150 ohms.</p>
+                <h4> Para o LED azul</h4>
+                <li>R = (9 – 3) / 0,02 </li>
+                <li>R = 6 / 0,02 </li>
+                <li>R = 300 ohms </li>
+
+                <p>Po tanto, neste caso o resistor mais adequado para o LED é de 300 ohms.</p>  
+                 <img src="./img/comp/diodo/diodo_led_cap_Lig_par_e_ser.jpg" height="350" width="350" >
+                 <br>
+
+
+              <a href="modelos_compon_eletr.html" class="btn btn-outline-info">Voltar</a>
+
+              
+            </div>
+        </div>
+      </div>
+      
+
+     </section>
+    <footer> 
+      <dir class="fluid bg-dark p-4">
+        <div class="row">
+          <div class="col-sm-12 text-white text-center">
+            <p class="mb-0">Desenvolvido por Celio Rocha da Silva</p>
+          </div>
+        </div>
+      </dir>
+
+    </footer>
+
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
